@@ -1,0 +1,1 @@
+# leaflet_capture_plugin
