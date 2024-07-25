@@ -1,0 +1,26 @@
+#map {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.leaflet-control-custom {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-overlay {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 55%;
+    height: 85%;
+    pointer-events: none;
+    border: 3px solid rgba(255, 120, 0, 0.7);
+    z-index: 1000;
+    display: none;
+}
